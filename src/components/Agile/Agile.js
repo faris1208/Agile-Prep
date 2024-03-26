@@ -60,12 +60,12 @@ function Agile() {
         <div className="Professional-Container">
             <div></div>
             <div class="Professional-Text">
-                <h1>Level Up Your Potential with Our PSM II Certification Training! </h1>
+                <h1>Professional Scrum Master™ - Advanced Training</h1>
              
                 <div className="Discover-Text">
-                    <p><span className="diverse-spann">*</span> Discover the application of Scrum in diverse scenarios through PSM II certification</p>
+                    <p><span className="diverse-spann">*</span> Discover the application of Scrum in diverse scenarios through PSM-A certification</p>
                     <p><span className="diverse-spann">*</span> Enhances your ability to apply the Scrum framework to solve advanced real-world problems</p>
-                    <p><span className="diverse-spann">*</span> Ensure success in your PSM II certification exam thorough comprehensive exam support</p>
+                    <p><span className="diverse-spann">*</span> Ensure success in your PSM-A certification exam thorough comprehensive exam support</p>
                     <p><span className="diverse-spann">*</span> Earn 16 SEUs | Exam fee included</p>
                 </div>
                 <Link to={'#Payment'} style={{textDecoration: 'none'}} smooth>
@@ -76,14 +76,14 @@ function Agile() {
 
         <div className='Unlike-Professional'>
             <h2>An Advanced Scrum Master Class</h2>
-            <p>Professional Scrum Master™ - Advanced (PSM-A) course is a 2-day* advanced Scrum Master class designed to support Scrum Masters in their professional development.  (This course was previously called Professional Scrum Master II) The PSM-A course is intended for Scrum Masters with at least one year of experience who are looking to grow their knowledge and abilities as a Scrum Master. This course is one step in that journey. The course also includes a free attempt at the globally recognized Professional Scrum Master II (PSM II) certification exam.</p>
+            <p>Professional Scrum Master™ - Advanced (PSM-A) course is a 2-day* advanced Scrum Master class designed to support Scrum Masters in their professional development.  (This course was previously called Professional Scrum Master II) The PSM-A course is intended for Scrum Masters with at least one year of experience who are looking to grow their knowledge and abilities as a Scrum Master. This course is one step in that journey. The course also includes a free attempt at the globally recognized Professional Scrum Master II (PSM-A) certification exam.</p>
             <p>Unlike the Professional Scrum Master (PSM) course which focuses on how to use Scrum, the Scrum framework and the role of the Scrum Master, PSM-A is an advanced course helping students to understand the stances that characterize an effective Scrum Master while diving deep into how they serve the Developers, Product Owner and organization. The course then teaches students about related practices and skills to enable them to have the right types of conversations and how to apply them to become better Scrum Masters.</p>
         </div>
 
         <div className="Scrum">
             <div className="Scrum-text">
                 <h2>Course <span className="Overview">Overview</span></h2>
-                <p>The Professional Scrum Master II (PSM II) course is tailored for seasoned Scrum Masters aiming to deepen their understanding of effective Scrum Master stances. Delving into the intricate ways they support Developers, Product Owners, and the organization, this advanced course equips the learners with practices and skills to engage in meaningful conversations and enhance their abilities as Scrum Masters. </p>
+                <p>The Professional Scrum Master II (PSM_A) course is tailored for seasoned Scrum Masters aiming to deepen their understanding of effective Scrum Master stances. Delving into the intricate ways they support Developers, Product Owners, and the organization, this advanced course equips the learners with practices and skills to engage in meaningful conversations and enhance their abilities as Scrum Masters. </p>
                 <p>Geared towards individuals with at least one year experience and a solid grasp of the Scrum Framework, PSM II offers a platform for experienced Scrum Masters to expand their expertise and capabilities in their role. </p>
             </div>
             <div className="Accredited">
@@ -160,8 +160,8 @@ function Agile() {
 
                 <div className='Professional-Scrum-Certification'>
                     <h2>Professional Scrum Certification</h2>
-                    <p>All participants completing the Professional Scrum Master - Advanced course will receive a password to attempt the Professional Scrum Master II (PSM II) assessment. PSM II class participants who attempt the PSM II assessment within 14 days of receiving their free password and do not score at least 85% will be granted a 2nd attempt at no additional cost.</p>
-                    <p>You are also entitled to a 40% discount on the PSM III assessment. These industry-recognized PSM certifications require a minimum passing score.</p>
+                    <p>All participants completing the Professional Scrum Master - Advanced course will receive a password to attempt the Professional Scrum Master II (PSM-A) assessment. PSM-A class participants who attempt the PSM-A assessment within 14 days of receiving their free password and do not score at least 85% will be granted a 2nd attempt at no additional cost.</p>
+                    <p>You are also entitled to a 40% discount on the PSM-A assessment. These industry-recognized PSM certifications require a minimum passing score.</p>
                 </div>
 
                 <div className="Content">
@@ -287,21 +287,21 @@ function Agile() {
                         <div className="Attend-Head">
                             <p>Please follow the steps below for the certification process:</p>
                             <ul>
-                                <li>Attend the two-day PSM II training conducted by a certified trainer</li>
-                                <li>Get the free password to take the PSM II assessment</li>
-                                <li>Take the PSM II exam</li>
-                                <li>Clear the exam and get PSM II certification with lifetime validity</li>
+                                <li>Attend the two-day PSM-A training conducted by a certified trainer</li>
+                                <li>Get the free password to take the PSM-A assessment</li>
+                                <li>Take the PSM-A exam</li>
+                                <li>Clear the exam and get PSM-A certification with lifetime validity</li>
                             </ul>
                         </div>
                     </div>
                     <div className="Scrum-Master-II-two">
                         <div className="What">
-                            <p>What does the PSM II certification cost?</p>
+                            <p>What does the PSM-AI certification cost?</p>
                             <IoIosArrowUp id="How-icon" />
                             {/* <i class="fa-solid fa-angle-up" id="How-icon"></i> */}
                         </div>
                         <div className="USD">
-                            <p>The cost of PSM II is $250 USD.</p>
+                            <p>The cost of PSM-A is $250 USD.</p>
                         </div>
                     </div>
                 </div>

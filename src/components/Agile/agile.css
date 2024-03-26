@@ -169,6 +169,7 @@ nav{
     margin: 20px 0px;
     cursor: pointer;
     background: #F0F0F0;
+    color: #EF5136;
 }
 
 .Unlike-Professional{
@@ -1676,6 +1677,7 @@ z-index: 1;
 }
 
 .PST{
+    width: 80%;
     padding: 0px 0px 40px;
 }
 
@@ -1684,7 +1686,7 @@ z-index: 1;
     color: #51565e;
     line-height: 22px;
     margin-bottom: 15px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .PST i{
@@ -1692,7 +1694,7 @@ z-index: 1;
     font-weight: 600;
     color: #51565e;
     line-height: 22px;
-    width: 80%;
+    width: 70%;
 }
     
     .Accredited{
@@ -1821,6 +1823,58 @@ z-index: 1;
     
     .Register-btn:hover{
         background: #1e1929;
+    }
+
+    .Who-Should-Attend{
+        padding: 0px 0px 30px;
+        width: 80%;
+    }
+    
+    .Who-Should-Attend h2{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 40px 0 20px;
+        line-height: 1.5;
+        letter-spacing: .5px;
+        color: #272c37;
+        font-weight: bold;
+    }
+    
+    .Who-Should-Attend p{
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 26px;
+        letter-spacing: normal;
+        color: #51565e;
+        text-align: left;
+    }
+    
+    
+    .Professional-Scrum-Certification{
+        width: 80%;
+        padding: 0px 0px 30px;
+    }
+    
+    .Professional-Scrum-Certification h2{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 40px 0 20px;
+        line-height: 1.5;
+        letter-spacing: .5px;
+        color: #272c37;
+        font-weight: bold;
+    }
+    
+    .Professional-Scrum-Certification p{
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 26px;
+        letter-spacing: normal;
+        color: #51565e;
+        text-align: left;
+        margin: 25px 0px;
     }
     
     .Content h3{
