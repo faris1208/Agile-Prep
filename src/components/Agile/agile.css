@@ -159,9 +159,42 @@ nav{
     /* font-size: 18px; */
 }
 
+.Enroll-btn{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    cursor: pointer;
+    background: #F0F0F0;
+}
+
+.Unlike-Professional{
+    width: 100%;
+    padding: 50px 20px 0px;
+}
+
+.Unlike-Professional h2{
+    font-size: 20px;
+    color: #272c37;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.Unlike-Professional p{
+    font-size: 14px;
+    color: #51565e;
+    line-height: 22px;
+    margin-bottom: 25px;
+    /* letter-spacing: 0.5px; */
+}
+
 .Scrum{
     width: 100%;
     padding: 40px 20px 0px;
+    display: none;
 }
 
 .Scrum-text h2{
@@ -177,10 +210,69 @@ nav{
 
 .Scrum-text p{
     font-size: 14px;
-    color: 51565e;
+    color: #51565e;
     line-height: 22px;
     margin-bottom: 15px;
     /* letter-spacing: 0.5px; */
+}
+
+
+.Teacher{
+    width: 100%;
+    padding: 40px 20px 0px;
+    background-color: #EBF1F8;
+}
+
+.Facilitator h2{
+    font-size: 20px;
+    color: #272c37;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.Overview{
+    font-weight:600;
+}
+
+.Facilitator p{
+    font-size: 14px;
+    color: #51565e;
+    line-height: 22px;
+    margin-bottom: 15px;
+    /* letter-spacing: 0.5px; */
+}
+
+.Facilitator ul{
+    margin: 20px 0px;
+}
+
+.Facilitator ul li{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #51565e;
+    text-align: left;
+    margin:10px 0px 10px 30px;
+}
+
+.PST{
+    padding: 0px 0px 40px;
+}
+
+.PST p{
+    font-size: 14px;
+    color: #51565e;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.PST i{
+    font-size: 14px;
+    font-weight: 600;
+    color: #51565e;
+    line-height: 22px;
 }
 
 .Accredited{
@@ -311,6 +403,58 @@ nav{
     background: #0d0b11;
 }
 
+.Who-Should-Attend{
+    padding: 0px 0px 30px;
+}
+
+.Who-Should-Attend h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 40px 0 20px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: #272c37;
+    font-weight: bold;
+}
+
+.Who-Should-Attend p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #51565e;
+    text-align: left;
+}
+
+
+.Professional-Scrum-Certification{
+    padding: 0px 0px 30px;
+}
+
+.Professional-Scrum-Certification h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 40px 0 20px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: #272c37;
+    font-weight: bold;
+}
+
+.Professional-Scrum-Certification p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #51565e;
+    text-align: left;
+    margin: 25px 0px;
+}
+
+
+
 .Content h3{
     font-size: 16px;
     font-weight: 500;
@@ -334,7 +478,6 @@ nav{
 
 .Master p{
     font-size: 14px;
-    /* letter-spacing: 0.5px; */
     font-weight: bold;
     color: #51565e;
 }
@@ -368,7 +511,6 @@ nav{
     width: 500px; 
     overflow: hidden;
     text-overflow: ellipsis; 
-    /* border: 1px solid #000000; */
     margin: 20px 0px;
     color: #51565e;
     cursor: pointer;
@@ -909,6 +1051,71 @@ margin: 0px 0px;
 z-index: 1;
 }
 
+.Download-Information-container{
+    padding: 35px 20px;
+    /* background: linear-gradient(0deg, #FDFEFE,  40%, #e7eff8); */
+}
+
+.Download-Information h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #272c37;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.Download-Information p{
+    color: #51565e;
+    font-size: 14px;
+    line-height: 1.57;
+    font-weight: normal;
+    font-style: normal;
+    margin: 20px 0px;
+}
+
+.Make-Payment-btn{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #0F0C15;
+    font-size: 25px;
+    color: #b3b4b6;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.Make-Payment-btn:hover{
+    background: #30293d;
+}
+
+.Click-here{
+    margin: 20px 0px;
+}
+.Click-here a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Click-here p{
+    font-size: 15px;
+    color: #EF5136;
+    /* width: 100%; */
+    white-space: nowrap; 
+    /* width: 500px;  */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.here-icon{
+    font-size: 25px;
+    color: #EF5136;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
 .footer-nav{
     background-color: #000000;
     padding: 10px 0px;
@@ -1027,7 +1234,7 @@ z-index: 1;
 }
 
 .Android-App{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1096,6 +1303,7 @@ z-index: 1;
 
 .Trending-Post-Container{
     padding: 20px;
+    display: none;
 }
 
 .Trending-Post{
@@ -1174,6 +1382,7 @@ z-index: 1;
 
 .Disclaimer{
     padding: 20px ;
+    display: none;
 }
 
 .Disclaimer h3{
@@ -1361,6 +1570,43 @@ z-index: 1;
         /* font-size: 18px; */
     }
     
+    .Enroll-btn{
+        padding: 20px 45px;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 20px 0px;
+        cursor: pointer;
+        background: #F0F0F0;
+    }
+    
+    .Enroll-btn:hover{
+        background: #cecccc;
+    }
+
+    .Unlike-Professional{
+        width: 100%;
+        padding: 50px 120px 0px;
+    }
+    
+    .Unlike-Professional h2{
+        font-size: 20px;
+        color: #272c37;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+    
+    .Unlike-Professional p{
+        font-size: 14px;
+        color: #51565e;
+        line-height: 22px;
+        margin-bottom: 25px;
+        width: 80%;
+        /* letter-spacing: 0.5px; */
+    }
+
     .Scrum{
         width: 100%;
         padding: 40px 120px 50px;
@@ -1385,6 +1631,69 @@ z-index: 1;
         /* letter-spacing: 0.5px; */
         width: 60%;
     }
+
+    
+.Teacher{
+    width: 100%;
+    padding: 40px 120px 0px;
+    background-color: #EBF1F8;
+}
+
+.Facilitator h2{
+    font-size: 20px;
+    color: #272c37;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.Overview{
+    font-weight:600;
+}
+
+.Facilitator p{
+    font-size: 14px;
+    color: #51565e;
+    line-height: 22px;
+    margin-bottom: 15px;
+    width: 80%;
+    /* letter-spacing: 0.5px; */
+}
+
+.Facilitator ul{
+    margin: 20px 0px;
+}
+
+.Facilitator ul li{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #51565e;
+    text-align: left;
+    margin:10px 0px 10px 30px;
+    /* width: 80%; */
+}
+
+.PST{
+    padding: 0px 0px 40px;
+}
+
+.PST p{
+    font-size: 14px;
+    color: #51565e;
+    line-height: 22px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.PST i{
+    font-size: 14px;
+    font-weight: 600;
+    color: #51565e;
+    line-height: 22px;
+    width: 80%;
+}
     
     .Accredited{
         margin-top: 40px;
@@ -1415,7 +1724,6 @@ z-index: 1;
     } */
     
     .blur{
-        /* background: linear-gradient(100deg, #F4F8FB,#FCFDFE); */
         padding: 25px 0px;
         background: linear-gradient(0deg, #FDFEFE,  40%, #e7eff8);
     }
@@ -2134,6 +2442,53 @@ z-index: 1;
         /* border-left: 2px solid gray; */
         margin-left: 10px;
         
+    }
+
+    .Download-Information-container{
+        padding: 35px 120px;
+        /* background: linear-gradient(0deg, #FDFEFE,  40%, #e7eff8); */
+    }
+    
+    .Download-Information h3{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.3;
+        color: #272c37;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    
+    .Download-Information p{
+        color: #51565e;
+        font-size: 18px;
+        line-height: 1.57;
+        font-weight: normal;
+        font-style: normal;
+        margin: 20px 0px;
+        width: 80%;
+    }
+
+    .Click-here{
+        margin: 20px 0px;
+    }
+    .Click-here a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Click-here p{
+        font-size: 25px;
+        color: #EF5136;
+        width: 43%;
+    }
+
+    .here-icon{
+        font-size: 25px;
+        color: #EF5136;
+        margin-top: 2px;
+        cursor: pointer;
     }
 
     

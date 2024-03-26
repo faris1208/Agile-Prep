@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link';
 import './agile.css';
 import Lade from "../Img/WhatsApp Image 2024-03-23 at 10.44.52.jpeg";
 import PSM from "../Img/PSM_ii.svgz";
@@ -20,9 +21,16 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import { FaApple } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
+
 
 
 function Agile() {
+
+    const navigate = useNavigate();
+
+
   return (
     <div className='Agile'>
         <div className="Simple-Learn-Container">
@@ -41,7 +49,7 @@ function Agile() {
                         <p>All Courses</p>
                     </div>
                     <div className="Menu">
-                        <RxHamburgerMenu id="hamburger" />
+                        <RxHamburgerMenu id="hamburger"  />
                         {/* <i class="fa-solid fa-bars" id="hamburger" ></i> */}
                     </div>
                     <button className="Login-btn">Log in</button>
@@ -60,7 +68,16 @@ function Agile() {
                     <p><span className="diverse-spann">*</span> Ensure success in your PSM II certification exam thorough comprehensive exam support</p>
                     <p><span className="diverse-spann">*</span> Earn 16 SEUs | Exam fee included</p>
                 </div>
+                <Link to={'#Payment'} style={{textDecoration: 'none'}} smooth>
+                    <button className='Enroll-btn'>Eroll</button>
+                </Link>
             </div>
+        </div>
+
+        <div className='Unlike-Professional'>
+            <h2>An Advanced Scrum Master Class</h2>
+            <p>Professional Scrum Master™ - Advanced (PSM-A) course is a 2-day* advanced Scrum Master class designed to support Scrum Masters in their professional development.  (This course was previously called Professional Scrum Master II) The PSM-A course is intended for Scrum Masters with at least one year of experience who are looking to grow their knowledge and abilities as a Scrum Master. This course is one step in that journey. The course also includes a free attempt at the globally recognized Professional Scrum Master II (PSM II) certification exam.</p>
+            <p>Unlike the Professional Scrum Master (PSM) course which focuses on how to use Scrum, the Scrum framework and the role of the Scrum Master, PSM-A is an advanced course helping students to understand the stances that characterize an effective Scrum Master while diving deep into how they serve the Developers, Product Owner and organization. The course then teaches students about related practices and skills to enable them to have the right types of conversations and how to apply them to become better Scrum Masters.</p>
         </div>
 
         <div className="Scrum">
@@ -75,6 +92,26 @@ function Agile() {
                     <img src={PSM} alt="" className="Lade-image" width="100%" />
                     {/* <img src="./Img/PSM_ii.svgz" class="PSM" alt=""> */}
                 </div>
+            </div>
+        </div>
+
+        <div className='Teacher'>
+            <div className='Facilitator'>
+                <h2>Course <span className="Overview">Overview</span></h2>
+                <p>Over the 2 days*, students will learn about areas critical to growing as a successful Scrum Master such as how the principles and values of Scrum help guide Scrum Masters in the decisions they make and how the Scrum Master can help change the environment of Scrum Teams, creating an environment for agility to thrive. The Scrum Master role is complex and often, a Scrum Master must be able to apply different stances in order to be effective, such as:</p>
+                <ul>
+                    <li>The Scrum Master as a Teacher</li>
+                    <li>The Scrum Master as a Coach & Mentor</li>
+                    <li>The Scrum Master as a Facilitator</li>
+                    <li>The Scrum Master as a Change Agent</li>
+                </ul>
+            </div>
+            <div className='PST'>
+                <p>As a Scrum Master, being able to identify, and effectively apply, which stance would benefit your team the most depending on the situation or circumstance could prove to be the key to the success of your team.</p>
+                <p>As a Scrum Master, part of your role is to help management and other stakeholders across your organization understand the benefits of Scrum and Agile. Therefore, it is imperative that you have the information and background that is needed to gain credibility in order to be an effective change agent.  Throughout the class, your PST will provide stories, exercises, facilitation techniques (such as “Liberating Structures”), resources and more.</p>
+                <p>There will also be time in class for the Professional Scrum Trainer (PST) to provide coaching on challenges that you and your classmates may be experiencing today or may in the future.</p>
+                <p>View the different Focus Areas covered within this class and others.</p>
+                <i>*  When offered in-person, this course is generally delivered over two consecutive days. When offered as a Live Virtual Class, the course may be broken up into more, shorter days.</i>
             </div>
         </div>
 
@@ -97,18 +134,36 @@ function Agile() {
                     </ul>
                 </div>
                 <div className="requisites">
-                    <h3>Learning Objectives: </h3>
+                    <h3>Course Learning Objectives: </h3>
                     <ul>
-                        <li>Understanding how Scrum principles and values serve as a compass for Scrum Masters' decision-making processes. </li>
-                        <li>Identifying the essential practices, tools, skills, and stances that contribute to the effectiveness of a Scrum Master. </li>
-                        <li>Exploring the role of the Scrum Master as a servant-leader and strategies for enhancing proficiency in this capacity. </li>
-                        <li>Strategies for assisting Development Teams and Product Owners in bolstering their effectiveness through Scrum Master support. </li>
-                        <li>Initiating changes within the environment to foster a more favorable atmosphere for successful Scrum Team operations with heightened agility. </li>
+                        <li>What practices, tools, skills and stances make an effective Scrum Master</li>
+                        <li>How the Scrum principles and values help guide Scrum Masters in the decisions they make</li>
+                        <li>How the Scrum Master acts as a servant-leader and improve their ability in this role</li>
+                        <li>What the Scrum Master can do to support Developers and Product Owners to become more effective</li>
+                        <li>Ways that the Scrum Master can help to change the environment making it more conducive for Scrum Teams to be successful with greater agility</li>
+                        <li>Provide tips and techniques for the Scrum Master to work with the rest of the organization in support of their Scrum Teams</li>
+                        <li>Improve effects on the organization of a successful Scrum Master</li>
+                        <li>Dealing with team conflict</li>
+                        <li>Removing impediments</li>
+                        <li>Communicating the importance of a "Done" Increment</li>
+                        <li>How to support the Scrum Team</li>
+                        <li>Understanding the challenges of middle management</li>
                     </ul>
-                    <div className="Register">
+                    {/* <div className="Register">
                         <button className="Register-btn">Register</button>
-                    </div>
+                    </div> */}
                 </div>
+                <div className='Who-Should-Attend'>
+                    <h2>Who Should Attend this class?</h2>
+                    <p>The Professional Scrum Master - Advanced course is an advanced course specifically designed for experienced Scrum Masters who have a thorough understanding of the Scrum framework.  It is particularly beneficial for those people with at least one year of Scrum Master experience.</p>
+                </div>
+
+                <div className='Professional-Scrum-Certification'>
+                    <h2>Professional Scrum Certification</h2>
+                    <p>All participants completing the Professional Scrum Master - Advanced course will receive a password to attempt the Professional Scrum Master II (PSM II) assessment. PSM II class participants who attempt the PSM II assessment within 14 days of receiving their free password and do not score at least 85% will be granted a 2nd attempt at no additional cost.</p>
+                    <p>You are also entitled to a 40% discount on the PSM III assessment. These industry-recognized PSM certifications require a minimum passing score.</p>
+                </div>
+
                 <div className="Content">
                     <h3>Course Content</h3>
                 </div>
@@ -364,6 +419,21 @@ function Agile() {
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div className='Download-Information-container' id='Payment'>
+            <div className='Download-Information'>
+                <h3>Download Information</h3>
+                <p>You can download the datasheet about the Professional Scrum Master - Advanced course to learn more and share with others.</p>
+                <button className='Make-Payment-btn' onClick={() => {navigate("/payment");}}>Make Payment</button>
+                <div className='Click-here'>
+                    <a href='/'>
+                        <p>To know more about the website click here </p>
+                        <MdOutlineKeyboardDoubleArrowRight className='here-icon' />
+                    </a>
+                </div>
+                
             </div>
         </div>
 
