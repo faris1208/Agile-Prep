@@ -38,7 +38,7 @@ function Agile() {
                     <p><span className="diverse-spann">*</span> Earn 16 SEUs | Exam fee included</p>
                 </div>
                 <Link to={'#Payment'} style={{textDecoration: 'none'}} smooth>
-                    <button className='Enroll-btn'>Eroll</button>
+                    <button className='Enroll-btn'>Enroll</button>
                 </Link>
             </div>
         </div>
@@ -79,8 +79,8 @@ function Agile() {
                 <p>As a Scrum Master, being able to identify, and effectively apply, which stance would benefit your team the most depending on the situation or circumstance could prove to be the key to the success of your team.</p>
                 <p>As a Scrum Master, part of your role is to help management and other stakeholders across your organization understand the benefits of Scrum and Agile. Therefore, it is imperative that you have the information and background that is needed to gain credibility in order to be an effective change agent.  Throughout the class, your PST will provide stories, exercises, facilitation techniques (such as “Liberating Structures”), resources and more.</p>
                 <p>There will also be time in class for the Professional Scrum Trainer (PST) to provide coaching on challenges that you and your classmates may be experiencing today or may in the future.</p>
-                <p>View the different Focus Areas covered within this class and others.</p>
-                <i>*  When offered in-person, this course is generally delivered over two consecutive days. When offered as a Live Virtual Class, the course may be broken up into more, shorter days.</i>
+                {/* <p>View the different Focus Areas covered within this class and others.</p> */}
+                {/* <i>*  When offered in-person, this course is generally delivered over two consecutive days. When offered as a Live Virtual Class, the course may be broken up into more, shorter days.</i> */}
             </div>
         </div>
 
@@ -89,6 +89,10 @@ function Agile() {
             <div className="Curriculum-Container-two">
                 <div className="Curriculum-two">
                     <h2>Course <span class="Curriculum-span">Curriculum</span></h2>
+                </div>
+                <div className='Who-Should-Attend'>
+                    <h2>Who Should Attend this class?</h2>
+                    <p>The Professional Scrum Master - Advanced course is an advanced course specifically designed for experienced Scrum Masters who have a thorough understanding of the Scrum framework.  It is particularly beneficial for those people with at least one year of Scrum Master experience.</p>
                 </div>
                 <div className="Eligibility">
                     <h3>Who is this course for?</h3>
@@ -122,10 +126,7 @@ function Agile() {
                         <button className="Register-btn">Register</button>
                     </div> */}
                 </div>
-                <div className='Who-Should-Attend'>
-                    <h2>Who Should Attend this class?</h2>
-                    <p>The Professional Scrum Master - Advanced course is an advanced course specifically designed for experienced Scrum Masters who have a thorough understanding of the Scrum framework.  It is particularly beneficial for those people with at least one year of Scrum Master experience.</p>
-                </div>
+                
 
                 <div className='Professional-Scrum-Certification'>
                     <h2>Professional Scrum Certification</h2>
@@ -395,7 +396,7 @@ function Agile() {
             <div className='Download-Information'>
                 <h3>Download Information</h3>
                 <p>You can download the datasheet about the Professional Scrum Master - Advanced course to learn more and share with others.</p>
-                <button className='Make-Payment-btn' onClick={() => {navigate("/payment");}}>Enroll For This Course $499  <FaArrowRightLong className='long-icon' /></button>
+                <button className='Make-Payment-btn' onClick={() => {navigate("/payment");}}>Enroll For This Course $1,000  <FaArrowRightLong className='long-icon' /></button>
                 <div className='Click-here'>
                 <Link to="https://agilepreppro.com/">
                         <p>To know more about the website click here </p>

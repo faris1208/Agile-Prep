@@ -139,7 +139,7 @@ body{
 .Teacher{
     width: 100%;
     padding: 40px 20px 0px;
-    background-color: #EBF1F8;
+    /* background-color: #EBF1F8; */
 }
 
 .Facilitator h2{
@@ -242,6 +242,10 @@ body{
 }
 .Curriculum-span{
     font-weight: 600;
+}
+
+.Eligibility{
+    display: none;
 }
 
 .Eligibility h3{
@@ -633,6 +637,7 @@ body{
 .Certification-container{
     width: 100%;
     padding: 40px 20px;
+    display: none;
 }
 
 .Certification-container h2{
@@ -853,6 +858,7 @@ body{
 .Related-Programs-container{
     background: #EBF1F8;
     padding: 70px 20px 30px;
+    display: none;
 }
 
 
@@ -1172,7 +1178,7 @@ z-index: 1;
 .Teacher{
     width: 100%;
     padding: 40px 120px 0px;
-    background-color: #EBF1F8;
+    /* background-color: #EBF1F8; */
 }
 
 .Facilitator h2{

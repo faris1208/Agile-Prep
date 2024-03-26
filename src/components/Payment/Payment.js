@@ -36,7 +36,7 @@ const Payment = () => {
             <div className='SAFe-container'>
               <h4>Course Applying For<span className='Applying-span'>*</span></h4>
               <div className='SAFe'>
-                <p>SAFe Scrum Master - $499.00</p>
+                <p>PSM-A - $1,000.00</p>
                 <div className='cancel-down'>
                   <TbLetterXSmall className='caret-down-x' />
                   <FaCaretDown className='caret-down' />

@@ -1,7 +1,7 @@
 import React from 'react'
 import Lade from "../Img/WhatsApp Image 2024-03-23 at 10.44.52.jpeg";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { TbGridDots } from "react-icons/tb";
+// import { TbGridDots } from "react-icons/tb";
 
 function Navbar() {
   return (
@@ -14,10 +14,10 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="second">
-                    <div className="Courses">
+                    {/* <div className="Courses">
                         <TbGridDots id="Square" />
                         <p>All Courses</p>
-                    </div>
+                    </div> */}
                     <div className="Menu">
                         <RxHamburgerMenu id="hamburger"  />
                     </div>
