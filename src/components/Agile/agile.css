@@ -10,17 +10,46 @@ body{
     font-family: sans-serif;
 }
 
+.maximum{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-border{
+    max-width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid lightgray;
+    border-top-width: 1px;
+}
+
 .red-hot{
     color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .not-italic{
     color: green;
 }
 
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
 .pt-4{
     color: blue;
-    display: none;
+    padding-top: 1rem;
+    /* display: none; */
 }
 
 .Professional-Container{
@@ -109,9 +138,9 @@ body{
 }
 
 .Unlike-Professional h2{
-    font-size: 20px;
+    font-size: 22px;
     color: #272c37;
-    font-weight: 100;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -156,9 +185,9 @@ body{
 }
 
 .Facilitator h2{
-    font-size: 20px;
+    font-size: 22px;
     color: #272c37;
-    font-weight: 100;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 

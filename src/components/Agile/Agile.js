@@ -74,16 +74,16 @@ function Agile() {
   return (
     <div className='Agile'>
 
-{/* <div className="max-w-[1000px] mx-auto w-full flex flex-col mt-16">
+{/* <div className=" maximum">
             {accordionInfo.map((acc, i) => (
               <div
                 key={i}
-                className="w-full border py-5 border-lightGray border-x-0 border-t-0"
+                className="line-border"
               >
                 <label
                   className={`red-hot ${
                     selected === i ? "text-blue" : ""
-                  } cursor-pointer text-2xl flex justify-between items-center font-bold`}
+                  } `}
                   onClick={() => toggle(i)}
                 >
                   <i className="not-italic">{acc.title}</i>
@@ -164,7 +164,7 @@ function Agile() {
             <div className="blur"></div>
             <div className="Curriculum-Container-two">
                 <div className="Curriculum-two">
-                    <h2>Course <span class="Curriculum-span">Curriculum</span></h2>
+                    {/* <h2>Course <span class="Curriculum-span">Curriculum</span></h2> */}
                 </div>
                 <div className='Who-Should-Attend'>
                     <h2>Who Should Attend this class?</h2>
