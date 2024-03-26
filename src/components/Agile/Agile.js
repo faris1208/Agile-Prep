@@ -1,28 +1,19 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import './agile.css';
-import Lade from "../Img/WhatsApp Image 2024-03-23 at 10.44.52.jpeg";
 import PSM from "../Img/PSM_ii.svgz";
 import tesh from "../Img/mub.jpeg";
 import old from "../Img/Professional-Scrum-Master-II.avif";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { TbGridDots } from "react-icons/tb";
 import { LuMinus } from "react-icons/lu";
 import { GoPlus } from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoMdStar } from "react-icons/io";
-import { CiFacebook } from "react-icons/ci";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa6";
-import { FaInstagramSquare } from "react-icons/fa";
-import { IoLogoAndroid } from "react-icons/io";
-import { FaApple } from "react-icons/fa6";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { FaArrowRightLong } from "react-icons/fa6";
+
 
 
 
@@ -34,29 +25,7 @@ function Agile() {
   return (
     <div className='Agile'>
         <div className="Simple-Learn-Container">
-        <nav>
-            <div className="simpli-nav">
-                <div className="First">
-                    <div className="Menu-Img">
-                    <img src={Lade} alt="" className="Lade-image" width="100%" />
-                        {/* <img src="./Img/WhatsApp Image 2024-03-23 at 10.44.52.jpeg" alt="" class="simpli" width="100%"> */}
-                    </div>
-                </div>
-                <div className="second">
-                    <div className="Courses">
-                        <TbGridDots id="Square" />
-                        {/* <i class="fa-solid fa-table-cells" id="Square"></i> */}
-                        <p>All Courses</p>
-                    </div>
-                    <div className="Menu">
-                        <RxHamburgerMenu id="hamburger"  />
-                        {/* <i class="fa-solid fa-bars" id="hamburger" ></i> */}
-                    </div>
-                    <button className="Login-btn">Log in</button>
-                </div>
-            </div>
-        </nav>
-
+    
         <div className="Professional-Container">
             <div></div>
             <div class="Professional-Text">
@@ -426,133 +395,18 @@ function Agile() {
             <div className='Download-Information'>
                 <h3>Download Information</h3>
                 <p>You can download the datasheet about the Professional Scrum Master - Advanced course to learn more and share with others.</p>
-                <button className='Make-Payment-btn' onClick={() => {navigate("/payment");}}>Make Payment</button>
+                <button className='Make-Payment-btn' onClick={() => {navigate("/payment");}}>Enroll For This Course $499  <FaArrowRightLong className='long-icon' /></button>
                 <div className='Click-here'>
-                    <a href='/'>
+                <Link to="https://agilepreppro.com/">
                         <p>To know more about the website click here </p>
                         <MdOutlineKeyboardDoubleArrowRight className='here-icon' />
-                    </a>
+                </Link>
                 </div>
                 
             </div>
         </div>
 
-        <footer>
-            <div className="footer-nav">
-                <div className="Simplilearn-Solution">
-                    <p>© 2009-2024-Simplilearn Solution. </p>
-                    <i class="fa-solid fa-chevron-down" id="fa-down"></i>
-                </div>
-            </div>
-
-            <div className="Footer-container">
-                <div className="Refer-and-Earn-heading">
-                    <div className="Refer-and-Earn">
-                        <p>Follow us!</p>
-                        <button className="Refer-btn">Refer and Earn</button>
-                        <div class="location-arrow">
-                            {/* <i class="fa-brands fa-facebook-f" id="facebook"></i> */}
-                            <CiFacebook id="facebook" />
-                            <FaTwitterSquare id="facebook"/>
-                            <FaYoutube id="youtube" />
-                            <FaLinkedin id="facebook" />
-                            <FaLocationArrow id="facebook" />
-                            <FaInstagramSquare id="youtube" />
-                        </div>
-                    </div>
-                    <div className="Alumni-speak">
-                        <div className="Newsroom">
-                            <h3>Company</h3>
-                            <p>About us</p>
-                            <p>Careers</p>
-                            <p>Newsroom</p>
-                            <p>Alumni speak</p>
-                            <p>Grievance redressal</p>
-                            <p>Contact us</p>
-                        </div>
-
-                        <div className="Newsroom">
-                            <h3>Work with us</h3>
-                            <p>Become an instructor</p>
-                            <p>Blog as guest</p>
-                        </div>
-
-                        <div className="Newsroom">
-                            <h3>Discover</h3>
-                            <p>Skillups</p>
-                            <p>Skillup Sitemap</p>
-                            <p>Resources</p>
-                            <p>RSS feed</p>
-                            <p>City Sitemap</p>
-                        </div>
-
-                        <div className="Newsroom">
-                            <h3>For Businesses</h3>
-                            <p>Corporate training</p>
-                            <p>Partners</p>
-                            <p>Digital Transformation</p>
-                        </div>
-                    </div>
-                    <div className="Android-App">
-                        <h3>Learn On the Go!</h3>
-                        <div className="Android-Heading">
-                            <div className="Android">
-                                <IoLogoAndroid id="Android-icon" />
-                                <p>Get the Android App</p>
-                            </div>
-                            <div className="Android2">
-                                {/* <i class="fa-brands fa-apple" id="Android-icon2"></i> */}
-                                <FaApple id="Android-icon2" />
-                                <p>Get the iOS App</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="Trending-Post-Container">
-                    <div className="Trending-Post">
-                        <h3>Trending Post Graduate Programs</h3>
-                        <p>Artificial Intelligence Course | Cloud Computing Certification Course | Full Stack Web Development Course | PG in Data Science | MS in Artificial Intelligence | Product Management Certification Course | Blockchain Course | Project Management Certification Course | Lean Six Sigma Certification Course | Data Analytics Program | AI and ML Course | Business Analysis Certification Course | Data Engineering Certification Courses | Digital Marketing Certification Program | DevOps Certification Course</p>
-                    </div>
-                    <div className="Trending-Post">
-                        <h3>Trending Master Programs</h3>
-                        <p>PMP Plus Certification Training Course | Data Science Certifiation Course | Data Analyst Course | Masters in Artificial Intelligence | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Digital Marketing Course | Cyber Security Expert Course | Business Analyst Course</p>
-                    </div>
-                    <div className="Trending-Post">
-                        <h3>Trending Courses</h3>
-                        <p>PMP Certification Training Course | CSM Certification Course | Data Science with Python Course | Tableau Certification Course | Power BI Certification Course | TOGAF Certification Course | ITIL 4 Foundation Certification Training Course | CISSP Certification Training | Java Certification Course | Python Certification Training Course | Big Data Hadoop Course | Leading SAFe ® 6 training with SAFe Agilist Certification | CEH (v12)- Certified Ethical Hacker | AWS Solutions Architect</p>
-                    </div>
-                    <div className="Trending-Post">
-                        <h3>Trending Categories</h3>
-                        <p>Project Management Courses | IT Service and Architecture | Digital Marketing | Cyber Security Certification Courses | DevOps | AI & Machine Learning | Big Data | Business and Leadership | Software Engineering Certifications | Job Oriented Courses | MBA Courses | Technical Courses | Computer Courses | Web Development Courses | Online Certifications | Software Engineering Bootcamps | Generative AI Courses | Quality Management Courses | Agile Certifications | Cloud Computing Courses</p>
-                    </div>
-                    <div className="Trending-Post">
-                        <h3>Trending Resources</h3>
-                        <p>Python Tutorial | JavaScript Tutorial | Java Tutorial | Angular Tutorial | Node.js Tutorial | Docker Tutorial | Git Tutorial | Kubernetes Tutorial | Power BI Tutorial | CSS Tutorial</p>
-                    </div>
-                </div>
-
-                <div className="Terms-Conditions-container">
-                    <div className="Terms-Conditions">
-                        <ul>
-                            <li>Terms and Conditions Privacy Policy Refund Policy Country</li>
-                        </ul>
-                    </div>
-                    <div className="Twenty-four">
-                        <p>© 2009-2024 - Simplilearn Solutions. All Rights Reserved. The certification names are the trademarks of their respective owners.</p>
-                    </div>
-                </div>
-
-                <div className="Disclaimer">
-                    <h3>Disclaimer</h3>
-                    <ul>
-                        <li>PMP, PMI, PMBOK, CAPM, PgMP, PfMP, ACP, PBA, RMP, SP, and OPM3 are registered marks of the Project Management Institute, Inc.</li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </footer>
+        
 
     </div>
     </div>
