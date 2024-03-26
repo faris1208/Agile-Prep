@@ -25,7 +25,6 @@ function Agile() {
   return (
     <div className='Agile'>
         <div className="Simple-Learn-Container">
-    
         <div className="Professional-Container">
             <div></div>
             <div class="Professional-Text">
