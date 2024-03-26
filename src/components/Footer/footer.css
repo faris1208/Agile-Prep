@@ -15,6 +15,17 @@ body{
     padding: 10px 0px;
 }
 
+#calendly-inline-widget{
+    cursor: pointer;
+}
+
+#calendly-inline-widget p{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
 .Simplilearn-Solution{
     display: flex;
     align-items: center;

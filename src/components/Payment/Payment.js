@@ -4,6 +4,8 @@ import { TbLetterXSmall } from "react-icons/tb";
 
 
 const Payment = () => {
+
+
   return (
     <div className='Simple-Learn-Container-payment'>
       <div className='Select-Course-container'>

@@ -1,12 +1,13 @@
 import React from 'react'
-import { CiFacebook } from "react-icons/ci";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa6";
-import { FaInstagramSquare } from "react-icons/fa";
+// import { CiFacebook } from "react-icons/ci";
+// import { FaTwitterSquare } from "react-icons/fa";
+// import { FaYoutube } from "react-icons/fa6";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaLocationArrow } from "react-icons/fa6";
+// import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import { FaApple } from "react-icons/fa6";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Footer() {
   return (
@@ -22,17 +23,21 @@ function Footer() {
             <div className="Footer-container">
                 <div className="Refer-and-Earn-heading">
                     <div className="Refer-and-Earn">
-                        <p>Follow us!</p>
-                        <button className="Refer-btn">Refer and Earn</button>
-                        <div class="location-arrow">
-                            {/* <i class="fa-brands fa-facebook-f" id="facebook"></i> */}
+                        {/* <p>Follow us!</p> */}
+                        {/* <button className="Refer-btn">Refer and Earn</button> */}
+                        <div id="calendly-inline-widget" >
+                        <Link to="https://calendly.com/agilepreppro/courseadvisor" style={{textDecoration: 'none'}}>
+                            <p>Calendly.com </p>
+                        </Link>
+                        </div>
+                        {/* <div class="location-arrow">
                             <CiFacebook id="facebook" />
                             <FaTwitterSquare id="facebook"/>
                             <FaYoutube id="youtube" />
                             <FaLinkedin id="facebook" />
                             <FaLocationArrow id="facebook" />
                             <FaInstagramSquare id="youtube" />
-                        </div>
+                        </div> */}
                     </div>
                     <div className="Alumni-speak">
                         <div className="Newsroom">
