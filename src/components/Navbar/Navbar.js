@@ -1,6 +1,6 @@
 import React from 'react'
 import Lade from "../Img/WhatsApp Image 2024-03-23 at 10.44.52.jpeg";
-import { RxHamburgerMenu } from "react-icons/rx";
+// import { RxHamburgerMenu } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
 // import { TbGridDots } from "react-icons/tb";
 
@@ -21,10 +21,10 @@ function Navbar() {
                         <TbGridDots id="Square" />
                         <p>All Courses</p>
                     </div> */}
-                    <div className="Menu">
+                    {/* <div className="Menu">
                         <RxHamburgerMenu id="hamburger"  />
-                    </div>
-                    <button className="Login-btn">Log in</button>
+                    </div> */}
+                    {/* <button className="Login-btn">Log in</button> */}
                 </div>
             </div>
         </nav>
