@@ -379,6 +379,7 @@ function Agile() {
                     <img src={old} alt="" className="Lade-image" width="100%" />
                     {/* <img src="./Img/Professional-Scrum-Master-II.avif" alt="" width="100%"> */}
                 </div>
+                
                 <div className="Scrum-Master-II-Container">
                     <div className="Scrum-Master-II">
                         <div className="How">
