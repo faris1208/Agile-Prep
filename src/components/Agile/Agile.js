@@ -5,7 +5,7 @@ import PSM from "../Img/PSM_ii.svgz";
 import tesh from "../Img/mub.jpeg";
 import old from "../Img/Professional-Scrum-Master-II.avif";
 import { LuMinus } from "react-icons/lu";
-import { GoPlus } from "react-icons/go";
+// import { GoPlus } from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
@@ -13,40 +13,46 @@ import { IoMdStar } from "react-icons/io";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-// import { useState } from "react";
+import { useState } from "react";
+// import { RxDotFilled } from "react-icons/rx";
 
 
 
 export const accordionInfo = [
     {
-        title: "Is there a free trial available?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
+        title: "Lesson 01:Understanding and Apllying the Scrum Framework",
+        text: "Empiricism",
+        category: "Scrum Values",
+        last: "Scrum Team",
+        properties: "Events",
+        brand: "Artifacts",
+        carrier: "Done Increment",
+        
     },
     {
-        title: "Can i change my plan later?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
+        title: "Lesson 02:Developing People and Teams",
+        text: "Self-Managing Teams",
+        category: "Facilitation",
+        last: "Leadership Styles",
+        properties: "Coaching",
+        brand: "Mentoring",
     },
 
     {
-        title: "Are the courses lifetime?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
+        title: "Lesson 03:Managing Products sith Agility",
+        text: "Product Backlog Management",
+        category: "Stakeholders",
+        last: "Customers",
     },
     {
-        title: "Do i get certified after taking courses?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
+        title: "Lesson 04:Developing and Delivering Products Professionally",
+        text: "Managing Technical Risk",
     },
     {
-        title: "How do i reach out to mentors?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
+        title: "Lesson 05:Evolving the Agile Organization",
+        text: "Organizational Design & Culture.",
     },
-    {
-        title: "Do we get job ready after taking courses?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
-    },
-    {
-        title: "Is there a free trial available?",
-        text: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
-    },
+ 
 ];
 
 
@@ -54,14 +60,14 @@ export const accordionInfo = [
 
 function Agile() {
 
-    // const [selected, setSelected] = useState(null);
+    const [selected, setSelected] = useState(null);
 
-    // const toggle = (id) => {
-    //     if (selected === id) {
-    //       return setSelected(null);
-    //     }
-    //     setSelected(id);
-    //   };
+    const toggle = (id) => {
+        if (selected === id) {
+          return setSelected(null);
+        }
+        setSelected(id);
+      };
 
     // const toggleMenu = () => {
     //     setActive((open) => !open)
@@ -86,8 +92,9 @@ function Agile() {
                   } `}
                   onClick={() => toggle(i)}
                 >
-                  <i className="not-italic">{acc.title}</i>
                   <span className="text-lg">{selected === i ? "-" : "+"}</span>
+                  <i className="not-italic">{acc.title}</i>
+                  
                 </label>
                 <p
                   className={`pt-4 ${
@@ -95,6 +102,14 @@ function Agile() {
                   }`}
                 >
                   {acc.text}
+                  <ul>
+                    <li>
+                        <div className='New-Empiricism'>
+                            <RxDotFilled className='new-red' />
+                            <p>Empiricism</p>
+                        </div>
+                    </li>
+                  </ul>
                 </p>
               </div>
             ))}
@@ -183,7 +198,7 @@ function Agile() {
                     </ul>
                 </div>
                 <div className="requisites">
-                    <h3>Course Learning Objectives: </h3>
+                    <h2>Course Learning Objectives: </h2>
                     <ul>
                         <li>What practices, tools, skills and stances make an effective Scrum Master</li>
                         <li>How the Scrum principles and values help guide Scrum Masters in the decisions they make</li>
@@ -211,7 +226,7 @@ function Agile() {
                 </div>
 
                 <div className="Content">
-                    <h3>Course Content</h3>
+                    <h2>Course Content</h2>
                 </div>
                 <div className="Professional-Container-two">
                     
@@ -220,58 +235,81 @@ function Agile() {
                         {/* <i class="fa-solid fa-minus" id="minus"></i> */}
                         <p>Professional Scrum Master II</p>
                     </div>
+
                     
-                    <div className="Lesson-Container">
+<div className=" maximum">
+            {accordionInfo.map((acc, i) => (
+              <div
+                key={i}
+                className="line-border"
+              >
+                <label
+                  className={`red-hot ${
+                    selected === i ? "text-blue" : ""
+                  } `}
+                  onClick={() => toggle(i)}
+                >
+                  <span className="text-lg">{selected === i ? "-" : "+"}</span>
+                  <i className="not-italic">{acc.title}</i>
+                  
+                </label>
+                <p
+                  className={`pt-4 ${
+                    selected === i ? "content show" : "content"
+                  }`}
+                >
+                  <div className='green-blue'>{acc.text}</div>
+                  <div className='green-blue'>{acc.category}</div>
+                  <div className='green-blue'>{acc.last}</div>
+                  <div className='green-blue'>{acc.properties}</div>
+                  <div className='green-blue'>{acc.brand}</div>
+                  <div className='green-blue'>{acc.carrier}</div>
+                </p>
+
+              </div>
+            ))}
+          </div>
+                    
+                    {/* <div className="Lesson-Container">
                         <div className='Target'>
                             <div className="Lesson">
                                 <GoPlus id="plus" />
-                                {/* <i class="fa-solid fa-plus" id="plus"></i> */}
                                 <p>Lesson 01:Understanding and Apllying the Scrum Framework</p>
                             </div>
-                            {/* <div className={`drills ${active ? "is-open" : ""}`}>
-                                <ul>
-                                    <li>Exercise</li>
-                                    <li>Drills</li>
-                                    <li>Moves</li>
-                                </ul>
-                            </div> */}
+                          
                         </div>
                         <div className='Target'>
                             <div className="Lesson">
                                 <GoPlus id="plus" />
-                                {/* <i class="fa-solid fa-plus" id="plus"></i> */}
                                 <p>Lesson 02:Developing People and Teams</p>
                             </div>
                         </div>
                         <div className='Target'>
                             <div className="Lesson">
                                 <GoPlus id="plus" />
-                                {/* <i class="fa-solid fa-plus" id="plus"></i> */}
                                 <p>Lesson 03:Managing Products sith Agility</p>
                             </div>
                         </div>
                         <div className='Target'>
                             <div className="Lesson">
                                 <GoPlus id="plus" />
-                                {/* <i class="fa-solid fa-plus" id="plus"></i> */}
                                 <p>Lesson 04:Developing and Delivering Products Professionally</p>
                             </div>
                         </div>
                         <div className='Target'>
                             <div className="Lesson">
                                 <GoPlus id="plus" />
-                                {/* <i class="fa-solid fa-plus" id="plus"></i> */}
                                 <p>Lesson 05:Evolving the Agile Organization</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
         </div>
 
         <div className="Skills-Covered">
-            <h3>Skills Covered</h3>
+            <h2>Skills Covered</h2>
             <div className="Advanced-heading">
                 <div className="Advanced">
                     <GoDotFill id="dot" />

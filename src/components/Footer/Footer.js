@@ -27,7 +27,7 @@ function Footer() {
                         {/* <button className="Refer-btn">Refer and Earn</button> */}
                         <div id="calendly-inline-widget" >
                         <Link to="https://calendly.com/agilepreppro/courseadvisor" style={{textDecoration: 'none'}}>
-                            <p>Calendly.com </p>
+                            <p>Click here to speak to a course advisor</p>
                         </Link>
                         </div>
                         {/* <div class="location-arrow">

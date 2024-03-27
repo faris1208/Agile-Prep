@@ -15,42 +15,113 @@ body{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
 
 .line-border{
     max-width: 100%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid lightgray;
     border-top-width: 1px;
 }
 
 .red-hot{
-    color: red;
+    color: #9DA6B6;
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
     align-items: center;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 15px ;
+    line-height: 20px;
+    margin:0px 30px;
+
 }
 
-.not-italic{
-    color: green;
+.red-hot i{
+    font-size: 15px;
+    white-space: nowrap; 
+    width: 500px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin: 20px 0px;
+    color: #51565e;
+    cursor: pointer;
 }
+
+/* .not-italic{
+    font-size: 15px;
+    white-space: nowrap; 
+    width: 100%;
+    max-width: 500px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin: 20px 0px;
+    color: #51565e;
+    cursor: pointer;
+} */
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* .content ul li{
+    margin: 20px 20px;
+    list-style: none;
+  } */
+  
+  .content.show {
+    height: auto;
+    max-height: 1999px;
+    overflow: hidden;
+    transition: 1s;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
 
 .text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
+  .green-blue{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+    margin: 10px 60px;
+  }
+
 .pt-4{
-    color: blue;
-    padding-top: 1rem;
+    color: #0F0C15;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+     /* border: 2px solid green; */
+    
     /* display: none; */
 }
+
+.New-Empiricism{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .new-red{
+    color: blue;
+    font-size: 18px;
+} */
 
 .Professional-Container{
     padding: 60px 20px 40px;
@@ -138,8 +209,9 @@ body{
 }
 
 .Unlike-Professional h2{
-    font-size: 22px;
+    font-size: 20px;
     color: #272c37;
+    /* color: red; */
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -327,9 +399,9 @@ body{
 
 
 
-.requisites h3{
-    font-size: 16px;
-    font-weight: 500;
+.requisites h2{
+    font-size: 22px;
+    font-weight: 600;
     margin: 40px 0 20px;
     line-height: 1.5;
     letter-spacing: .5px;
@@ -373,8 +445,8 @@ body{
 }
 
 .Who-Should-Attend h2{
-    font-size: 16px;
-    font-weight: 500;
+    font-size:20px;
+    font-weight: 600;
     margin: 40px 0 20px;
     line-height: 1.5;
     letter-spacing: .5px;
@@ -398,8 +470,8 @@ body{
 }
 
 .Professional-Scrum-Certification h2{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     margin: 40px 0 20px;
     line-height: 1.5;
     letter-spacing: .5px;
@@ -420,9 +492,9 @@ body{
 
 
 
-.Content h3{
-    font-size: 16px;
-    font-weight: 500;
+.Content h2{
+    font-size: 20px;
+    font-weight: 600;
     margin: 40px 0 20px;
     line-height: 1.5;
     letter-spacing: .5px;
@@ -536,9 +608,9 @@ body{
     margin-top: 70px;
 }
 
-.Skills-Covered h3{
-    font-size: 16px;
-    font-weight: 500;
+.Skills-Covered h2{
+    font-size: 20px;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: .5px;
     color: #272c37;
@@ -1223,7 +1295,7 @@ z-index: 1;
     }
     
     .Unlike-Professional h2{
-        font-size: 20px;
+        font-size: 32px;
         color: #272c37;
         font-weight: 100;
         margin-bottom: 30px;
@@ -1271,7 +1343,7 @@ z-index: 1;
 }
 
 .Facilitator h2{
-    font-size: 20px;
+    font-size: 32px;
     color: #272c37;
     font-weight: 100;
     margin-bottom: 30px;
@@ -1413,9 +1485,9 @@ z-index: 1;
     
     
     
-    .requisites h3{
-        font-size: 18px;
-        font-weight: 500;
+    .requisites h2{
+        font-size: 32px;
+        font-weight: 600;
         margin: 40px 0 20px;
         line-height: 1.5;
         letter-spacing: .5px;
@@ -1461,7 +1533,7 @@ z-index: 1;
     }
     
     .Who-Should-Attend h2{
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 500;
         margin: 40px 0 20px;
         line-height: 1.5;
@@ -1487,7 +1559,7 @@ z-index: 1;
     }
     
     .Professional-Scrum-Certification h2{
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 500;
         margin: 40px 0 20px;
         line-height: 1.5;
@@ -1507,8 +1579,8 @@ z-index: 1;
         margin: 25px 0px;
     }
     
-    .Content h3{
-        font-size: 20px;
+    .Content h2{
+        font-size: 32px;
         font-weight: 500;
         margin: 40px 0 20px;
         line-height: 1.5;
@@ -1581,9 +1653,9 @@ z-index: 1;
         margin-top: 70px;
     }
     
-    .Skills-Covered h3{
-        font-size: 16px;
-        font-weight: 500;
+    .Skills-Covered h2{
+        font-size: 32px;
+        font-weight: 600;
         line-height: 1.5;
         letter-spacing: .5px;
         color: #272c37;

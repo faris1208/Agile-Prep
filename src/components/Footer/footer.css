@@ -22,6 +22,7 @@ body{
 #calendly-inline-widget p{
     text-decoration: none;
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -387,6 +388,12 @@ body{
         background-color: #0E0B14;
         color: #fff;
     }
+
+    #calendly-inline-widget p{
+        text-decoration: none;
+        font-size: 20px;
+        text-align: left;
+    }
     
     .location-arrow{
         display: grid;
@@ -438,7 +445,7 @@ body{
     }
     
     .Android-App{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
