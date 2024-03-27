@@ -136,14 +136,14 @@ function Agile() {
 
         <div className='Unlike-Professional'>
             <h2>An Advanced Scrum Master Class</h2>
-            <p>Professional Scrum Master™ - Advanced (PSM-A) course is a 2-day* advanced Scrum Master class designed to support Scrum Masters in their professional development.  (This course was previously called Professional Scrum Master II) The PSM-A course is intended for Scrum Masters with at least one year of experience who are looking to grow their knowledge and abilities as a Scrum Master. This course is one step in that journey. The course also includes a free attempt at the globally recognized Professional Scrum Master II (PSM-A) certification exam.</p>
+            <p>Professional Scrum Master™ - Advanced (PSM-A) course is a 2-day* advanced Scrum Master class designed to support Scrum Masters in their professional development.  (This course was previously called Professional Scrum Master™ - Advanced) The PSM-A course is intended for Scrum Masters with at least one year of experience who are looking to grow their knowledge and abilities as a Scrum Master. This course is one step in that journey. The course also includes a free attempt at the globally recognized Professional Scrum Master™ - Advanced (PSM-A) certification exam.</p>
             <p>Unlike the Professional Scrum Master (PSM) course which focuses on how to use Scrum, the Scrum framework and the role of the Scrum Master, PSM-A is an advanced course helping students to understand the stances that characterize an effective Scrum Master while diving deep into how they serve the Developers, Product Owner and organization. The course then teaches students about related practices and skills to enable them to have the right types of conversations and how to apply them to become better Scrum Masters.</p>
         </div>
 
         <div className="Scrum">
             <div className="Scrum-text">
                 <h2>Course <span className="Overview">Overview</span></h2>
-                <p>The Professional Scrum Master II (PSM_A) course is tailored for seasoned Scrum Masters aiming to deepen their understanding of effective Scrum Master stances. Delving into the intricate ways they support Developers, Product Owners, and the organization, this advanced course equips the learners with practices and skills to engage in meaningful conversations and enhance their abilities as Scrum Masters. </p>
+                <p>The Professional Scrum Master™ - Advanced (PSM_A) course is tailored for seasoned Scrum Masters aiming to deepen their understanding of effective Scrum Master stances. Delving into the intricate ways they support Developers, Product Owners, and the organization, this advanced course equips the learners with practices and skills to engage in meaningful conversations and enhance their abilities as Scrum Masters. </p>
                 <p>Geared towards individuals with at least one year experience and a solid grasp of the Scrum Framework, PSM II offers a platform for experienced Scrum Masters to expand their expertise and capabilities in their role. </p>
             </div>
             <div className="Accredited">
@@ -221,7 +221,7 @@ function Agile() {
 
                 <div className='Professional-Scrum-Certification'>
                     <h2>Professional Scrum Certification</h2>
-                    <p>All participants completing the Professional Scrum Master - Advanced course will receive a password to attempt the Professional Scrum Master II (PSM-A) assessment. PSM-A class participants who attempt the PSM-A assessment within 14 days of receiving their free password and do not score at least 85% will be granted a 2nd attempt at no additional cost.</p>
+                    <p>All participants completing the Professional Scrum Master - Advanced course will receive a password to attempt the Professional Scrum Master™ - Advanced (PSM-A) assessment. PSM-A class participants who attempt the PSM-A assessment within 14 days of receiving their free password and do not score at least 85% will be granted a 2nd attempt at no additional cost.</p>
                     <p>You are also entitled to a 40% discount on the PSM-A assessment. These industry-recognized PSM certifications require a minimum passing score.</p>
                 </div>
 
@@ -233,7 +233,7 @@ function Agile() {
                     <div className="Master" >
                         <LuMinus id="minus" />
                         {/* <i class="fa-solid fa-minus" id="minus"></i> */}
-                        <p>Professional Scrum Master II</p>
+                        <p>Professional Scrum Master™ - Advanced</p>
                     </div>
 
                     
@@ -382,7 +382,7 @@ function Agile() {
                 <div className="Scrum-Master-II-Container">
                     <div className="Scrum-Master-II">
                         <div className="How">
-                            <p>How do i get certified as Professional Scrum Master II?</p>
+                            <p>How do i get certified as Professional Scrum Master™ - Advanced?</p>
                             <IoIosArrowUp id="How-icon" />
                             {/* <i class="fa-solid fa-angle-up" id="How-icon"></i> */}
                         </div>

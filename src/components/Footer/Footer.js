@@ -15,7 +15,7 @@ function Footer() {
         <footer>
             <div className="footer-nav">
                 <div className="Simplilearn-Solution">
-                    <p>© 2009-2024-Simplilearn Solution. </p>
+                    <p>© 2009-2024-Agilepreppro Solution. </p>
                     <i class="fa-solid fa-chevron-down" id="fa-down"></i>
                 </div>
             </div>
@@ -118,7 +118,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="Twenty-four">
-                        <p>© 2009-2024 - Simplilearn Solutions. All Rights Reserved. The certification names are the trademarks of their respective owners.</p>
+                        <p>© 2009-2024 - Agilepreppro Solutions. All Rights Reserved. The certification names are the trademarks of their respective owners.</p>
                     </div>
                 </div>
 
